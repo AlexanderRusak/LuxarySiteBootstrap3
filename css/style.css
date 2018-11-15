@@ -78,3 +78,10 @@ p {
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
   height: 570px; }
+
+.banner-text div div h1 {
+  color: red; }
+
+.banner-text div div div {
+  position: absolute;
+  bottom: 300px; }
