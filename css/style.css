@@ -39,3 +39,22 @@ p {
   margin-right: 18px;
   margin-top: 11px;
   font-size: 14px; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+@media (max-width: 768px) {
+  .logo-img {
+    margin-top: -10px; } }
+
+.row {
+  margin: 0px; }
+
+.carousel-indicators {
+  top: 240px;
+  width: 10px;
+  height: 50px;
+  left: 35%; }
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+  height: 570px; }
