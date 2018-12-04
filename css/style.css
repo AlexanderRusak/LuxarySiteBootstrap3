@@ -47,6 +47,9 @@ p {
 .navbar {
   margin-bottom: 0px; }
 
+.collapse ul li {
+  margin-left: 7px; }
+
 @media (max-width: 768px) {
   .logo-img {
     margin-top: -10px; } }
@@ -79,9 +82,141 @@ p {
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
   height: 570px; }
 
+.carousel-inner {
+  height: 570px; }
+
 .banner-text div div h1 {
-  color: red; }
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 0px; }
+
+.banner-text div div h3 span {
+  color: #fea100;
+  font-size: 40px; }
+
+.banner-text div div h3 {
+  font-size: 40px;
+  margin-top: 0px;
+  color: #fff; }
 
 .banner-text div div div {
   position: absolute;
-  bottom: 300px; }
+  bottom: 250px; }
+
+.food {
+  position: relative;
+  bottom: 159px; }
+
+.bellow-banner {
+  background-color: #edf1f3; }
+
+.bellow-read {
+  margin-top: 33px;
+  margin-bottom: 33px;
+  margin-right: 10px; }
+
+.bellow-read div {
+  display: inline-block;
+  width: 88px;
+  margin-left: 13px; }
+
+.bellow-read h4 {
+  color: #fea100;
+  margin-top: -7px; }
+
+.bellow-read img {
+  margin-bottom: 25px; }
+
+.bellow-call {
+  width: 390px;
+  margin-top: 33px;
+  margin-bottom: 33px; }
+
+.bellow-call div {
+  display: inline-block;
+  margin-left: 13px; }
+
+.bellow-call img {
+  margin-bottom: 25px; }
+
+.bellow-call h4 {
+  color: #fea100;
+  margin-top: -7px; }
+
+.about-restaurent {
+  margin-top: 121px;
+  margin-bottom: 40px; }
+
+.about-restaurent div div p {
+  margin-bottom: 0px; }
+
+.btn-and-img {
+  padding-top: 50px;
+  cursor: pointer;
+  float: left;
+  display: block;
+  padding-bottom: 120PX; }
+
+.btn-and-img p {
+  position: relative;
+  width: 100px;
+  right: 116px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block; }
+
+.btn-and-img div {
+  position: relative;
+  float: right;
+  right: 54px;
+  bottom: 10px;
+  width: 236px;
+  height: 71px;
+  background-color: #7d8587; }
+
+.sections div {
+  width: 250px;
+  height: 150px;
+  background-color: #7d8587; }
+
+.section-first {
+  float: left;
+  margin-top: 50px; }
+
+.section-first div:nth-child(2) {
+  margin-top: 10px; }
+
+.section-second {
+  float: right; }
+
+.section-second div:nth-child(2) {
+  margin-top: 10px; }
+
+.img-special {
+  height: 440px;
+  background-color: #4c5659; }
+
+.img-special h1 {
+  position: relative;
+  top: 100px;
+  color: #fff; }
+
+.specials {
+  background-color: red;
+  height: 300px;
+  position: relative;
+  bottom: 270px;
+  padding: 0px; }
+
+.specials div div:nth-child(1) {
+  float: left;
+  width: 569px;
+  height: 420px;
+  background-color: #7d8587; }
+
+.specials div div:last-child {
+  float: right;
+  width: 569px;
+  height: 420px;
+  background-color: #7d8587; }
