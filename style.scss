@@ -209,32 +209,31 @@ background-color: #7d8587;
   top: 100px;
   color: #fff;
 }
-.specials{
-  height: 730px;
+.main-block{
+  width: 550px;
+  height:730px;
+  background-color: #7d8587;
   position: relative;
-  bottom: 270px;
-  padding: 0px;
-
+  bottom: 280px;
 }
-.specials div:first-child {
-
-  background: transparent;
-  float: left;
+.main-block:first-child{
+float: left;
+}
+.main-block:last-child{
+float: right;
+}
+.main-block-img img{
   height: 420px;
-  width: 569px;
-  background-color: #7d8587;
+  width: 550px;
+  display: block;
 }
-.specials div:last-child {
-  float: right;
-  height: 420px;
-  width: 569px;
-  background-color: #7d8587;
+.white{
+  position: relative;
+  top: 37px;
+  background-color: #fff;
 }
-.specials h1{
-  
-  margin-top: 450px;
-}
-.specials div p{
+
+.white p{
   background-color: #fff;
   color: #7d8287;
   margin-top: 20px;
@@ -244,12 +243,28 @@ background-color: #7d8587;
   line-height: 20px;
   margin-bottom: 65px;
 }
-.specials div img:nth-child(2){
+
+
+
+.main-block h1{
+  margin-top: 450px;
+}
+.white div p{
+  background-color: #fff;
+  color: #7d8287;
+  margin-top: 20px;
+  display: block;
+  width: 450px;
+  margin-left: 65px;
+  line-height: 20px;
+  margin-bottom: 65px;
+}
+.white  img:nth-child(2){
   display: block;
   background-color: #fff;
 
 }
-.specials div h6{
+.white  h6{
   display: block;
   width: 100px;
   font-size: 13px;
@@ -258,7 +273,7 @@ background-color: #7d8587;
   float: left;
   margin-left: 47px;
 }
-.specials div h6 span{
+.white h6 span{
   color: #fe4c8d;
 }
 .specials-number{
@@ -275,7 +290,7 @@ margin-right: 45px;
   float: right;
   display: block;
 }
-.specials   {
+.shadow   {
   -webkit-box-shadow: 0px 16px 14px -11px rgba(125,133,135,1);
   -moz-box-shadow: 0px 16px 14px -11px rgba(125,133,135,1);
   box-shadow: 0px 16px 14px -11px rgba(125,133,135,1);
@@ -287,7 +302,8 @@ margin-right: 45px;
    position: relative;
    z-index: -99;
    background: red;
-   bottom: 190px;
-   left: 190px;
+   bottom: 140px;
+   left: 360px;
    background-color: #7d8587;
  }
+ .white{background-color: white;}
