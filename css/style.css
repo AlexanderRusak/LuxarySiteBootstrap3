@@ -294,3 +294,33 @@ p {
 
 .white {
   background-color: white; }
+
+.food-menu {
+  position: relative;
+  bottom: 200px; }
+
+.food-menu h2 {
+  font-size: 35px; }
+
+.tab ul li {
+  display: inline-block;
+  width: 25px;
+  height: 23px; }
+
+.tab ul li:first-child {
+  background: url("../image/food-menu/tab/icon_all.png") no-repeat; }
+
+.tab ul li:hover:first-child {
+  background: url("../image/food-menu/tab/icon_all_hover.png") no-repeat; }
+
+.tab ul li:nth-child(2) {
+  background: url("../image/food-menu/tab/icon_breakfast.png") no-repeat; }
+
+.tab ul li :hover:nth-child(2) {
+  background: url("../image/food-menu/tab/icon_breakfast_hover.png") no-repeat; }
+
+.tab ul li:nth-child(2) {
+  background: url("../image/food-menu/tab/icon_lunch.png") no-repeat; }
+
+.tab ul li :hover:nth-child(2) {
+  background: url("../image/food-menu/tab/icon_lunch_hover.png") no-repeat; }
