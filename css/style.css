@@ -305,7 +305,7 @@ p {
 .food-menu-h2 {
   position: relative;
   right: 265px;
-  margin-top: 130px;
+  margin-top: 120px;
   width: 200px; }
 
 .tab ul li {
@@ -329,10 +329,7 @@ p {
   position: absolute;
   float: left;
   top: -40px;
-  left: -380px; }
-
-.food {
-  margin-bottom: 100px; }
+  left: -274px; }
 
 .menu-list {
   width: 100%;
@@ -377,3 +374,26 @@ p {
   height: 1px;
   background-color: #878d91;
   margin-top: 15px; }
+
+.happy-clients-background {
+  height: 465px; }
+
+.happy-clients-background img {
+  width: 100%;
+  height: 100%; }
+
+.happy-clients-corousel {
+  height: 465px;
+  bottom: 465px; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.carousel-control.left {
+  background-image: none; }
+
+.happy-clients-corousel-arrow-left {
+  margin-left: -90px; }
+
+.happy-clients-corousel-arrow-right {
+  margin-right: -90px; }
